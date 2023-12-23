@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><!-- InstanceBegin template="/Templates/hr-cortex.dwt" codeOutsideHTMLIsLocked="false" -->
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"><!-- InstanceBeginEditable name="doctitle" --><title>Active Electrode Compensation</title><!-- InstanceEndEditable --><!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+
+
+
+
+<style type="text/css">
+<!--
+.style1 {
+	color: #FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+p {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+	vertical-align: top;
+}
+.style4 {font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; font-size: small; }
+.style5 {font-size: x-small}
+-->
+</style></head><body>
+<h3>Note from the ModelDB administrator: The following web page is a copy of <a href="http://romainbrette.fr/HRCORTEX/AEC/AECcode.html">http://romainbrette.fr/HRCORTEX/AEC/AECcode.html</a>
+made on August 17th 2008 and updated February 15th, 2019</h3><hr/>
+<table border="0" cellpadding="4" cellspacing="0" width="60%">
+  <tbody><tr bgcolor="#92b6f8" height="5">
+    <td width="68%"></td>
+    <td width="32%"></td>
+  </tr>
+  <tr bgcolor="#4b86f3">
+    <td bgcolor="#4b86f3"><p class="style1"> HR-CORTEX -  High-resolution intracellular recordings in cortical neurons </p></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr bgcolor="#92b6f8" height="5">
+    <td></td>
+    <td></td>
+  </tr>
+</tbody></table>
+<table border="0" cellpadding="0" cellspacing="0" width="60%">
+  <tbody><tr>
+    <td valign="top" width="199"><p>&nbsp;</p>
+      <table align="center" border="0" bordercolor="#4b86f3" cellpadding="4" cellspacing="0" width="80%">
+        <tbody><tr>
+          <td align="center" valign="top"><span class="style4"><a href="http://romainbrette.fr/HRCORTEX/index.html">Presentation</a></span></td>
+        </tr>
+		<tr>
+          <td align="center" valign="top"><span class="style4"><a href="http://romainbrette.fr/HRCORTEX/people.html">People</a></span></td>
+        </tr>
+        <tr>
+          <td align="center" valign="top"><span class="style4"><a href="http://romainbrette.fr/HRCORTEX/publis.html">Publications</a></span></td>
+        </tr>
+        <tr>
+          <td align="center" valign="top"><span class="style4"><a href="http://romainbrette.fr/HRCORTEX/Internal/">Internal space</a> </span></td>
+        </tr>
+      </tbody></table>
+    <p>A postdoc position is available <a href="http://cns.iaf.cnrs-gif.fr/postdoc.html">in the UNIC group.</a> </p>
+    <p>&nbsp;</p>
+    <p>The HR-CORTEX project is funded by the French ANR.</p>
+    <p>&nbsp;</p>
+    <p align="center"><a href="http://cns.iaf.cnrs-gif.fr/hr-cortex.html">Project page at UNIC</a></p>
+    <p align="right">&nbsp;</p>
+    <p align="right"><a href="http://romainbrette.fr/index.html" class="style5">R. Brette</a> </p></td>
+    <td bgcolor="#92b6f8" width="4">&nbsp;</td>
+    <td valign="top" width="588"><table border="0" cellpadding="10" cellspacing="0" width="100%">
+      <tbody><tr>
+        <td valign="top"><!-- InstanceBeginEditable name="Text" -->
+          <p><strong>Code for Active Electrode Compensation (AEC)</strong></p>
+          <p align="left"><a href="http://romainbrette.fr/HRCORTEX/AEC/index.html"><em>(Description of the Active Electrode Compensation technique</em></a>)</p>
+          <p>We
+provide some sample code for different platforms. It is distributed
+freely under the GPL license. The Python version is probably the most
+useful one (more readable and up-to-date).</p>
+          <p><a href="http://www.python.org/">Python</a>:</p>
+          <blockquote>
+            <p><a href="http://romainbrette.fr/HRCORTEX/AEC/AECoffline.py">Offline estimation of the electrode kernel</a> (you might need to install the <a href="http://www.scipy.org/">Scipy</a> package).</p>
+          </blockquote>
+          <p><a href="http://www.mathworks.fr/">Matlab</a>:</p>
+          <blockquote>
+            <p><a href="http://romainbrette.fr/HRCORTEX/AEC/rawKernel.m">Estimation of the full kernel</a>.</p>
+            <p><a href="http://romainbrette.fr/HRCORTEX/AEC/electrodeKernel.m">Extraction of the electrode kernel from the full kernel</a>.</p>
+          </blockquote>
+          <p><a href="http://www.scilab.org/">Scilab</a> (a free vector-based scientific software, similar to Matlab):</p>
+          <blockquote>
+            <p><a href="http://romainbrette.fr/HRCORTEX/AEC/AEC.sci">Offline estimation of the electrode kernel</a> (all functions in the same file).</p>
+          </blockquote>
+          <p><a href="http://www.neuron.yale.edu/neuron/">Neuron:</a></p>
+          <blockquote>
+            <p><a href="http://romainbrette.fr/HRCORTEX/AEC/AEC-Neuron.rar">Download AEC files</a> (.rar archive)</p>
+            <p><a href="http://romainbrette.fr/HRCORTEX/AEC/AEC-RTNeuron.rar">Download full set of experimental files</a> (.rar archive)</p>
+            </blockquote>
+          <blockquote>&nbsp;</blockquote>
+        <!-- InstanceEndEditable --></td>
+      </tr>
+    </tbody></table></td>
+  </tr>
+</tbody></table>
+<p>&nbsp;</p>
+<!-- InstanceEnd --></body><script type="text/javascript"><!--
+function __RP_Callback_Helper(str, strCallbackEvent, splitSize, func){var event = null;if (strCallbackEvent){event = document.createEvent('Events');event.initEvent(strCallbackEvent, true, true);}if (str && str.length > 0){var splitList = str.split('|');var strCompare = str;if (splitList.length == splitSize)strCompare = splitList[splitSize-1];var pluginList = document.plugins;for (var count = 0; count < pluginList.length; count++){var sSrc = '';if (pluginList[count] && pluginList[count].src)sSrc = pluginList[count].src;if (strCompare.length >= sSrc.length){if (strCompare.indexOf(sSrc) != -1){func(str, count, pluginList, splitList);break;}}}}if (strCallbackEvent)document.body.dispatchEvent(event);}function __RP_Coord_Callback(str){var func = function(str, index, pluginList, splitList){pluginList[index].__RP_Coord_Callback = str;pluginList[index].__RP_Coord_Callback_Left = splitList[0];pluginList[index].__RP_Coord_Callback_Top = splitList[1];pluginList[index].__RP_Coord_Callback_Right = splitList[2];pluginList[index].__RP_Coord_Callback_Bottom = splitList[3];};__RP_Callback_Helper(str, 'rp-js-coord-callback', 5, func);}function __RP_Url_Callback(str){var func = function(str, index, pluginList, splitList){pluginList[index].__RP_Url_Callback = str;pluginList[index].__RP_Url_Callback_Vid = splitList[0];pluginList[index].__RP_Url_Callback_Parent = splitList[1];};__RP_Callback_Helper(str, 'rp-js-url-callback', 3, func);}function __RP_TotalBytes_Callback(str){var func = function(str, index, pluginList, splitList){pluginList[index].__RP_TotalBytes_Callback = str;pluginList[index].__RP_TotalBytes_Callback_Bytes = splitList[0];};__RP_Callback_Helper(str, null, 2, func);}function __RP_Connection_Callback(str){var func = function(str, index, pluginList, splitList){pluginList[index].__RP_Connection_Callback = str;pluginList[index].__RP_Connection_Callback_Url = splitList[0];};__RP_Callback_Helper(str, null, 2, func);}
+//--></script></html>
